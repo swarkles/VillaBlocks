@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "villablocks:raw_sapphire_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "villablocks:raw_sapphire"
+  }
+}

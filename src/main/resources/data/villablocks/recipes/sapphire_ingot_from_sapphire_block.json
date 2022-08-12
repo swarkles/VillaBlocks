@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sapphire_ingot",
+  "ingredients": [
+    {
+      "item": "villablocks:sapphire_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "villablocks:sapphire_ingot"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "sapphire_ingot",
+  "ingredient": {
+    "item": "villablocks:deepslate_sapphire_ore"
+  },
+  "result": "villablocks:sapphire_ingot"
+}

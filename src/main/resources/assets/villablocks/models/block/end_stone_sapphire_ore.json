@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "villablocks:block/end_stone_sapphire_ore"
+  }
+
+}

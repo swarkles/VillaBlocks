@@ -1,0 +1,14 @@
+{
+  "item.villablocks.raw_sapphire": "Raw Sapphire",
+  "item.villablocks.sapphire": "Sapphire",
+  "item.villablocks.sapphire_ingot": "Sapphire Ingot",
+
+  "block.villablocks.sapphire_block" : "Block of Sapphire",
+  "block.villablocks.sapphire_ore" : "Sapphire Ore",
+  "block.villablocks.raw_sapphire_block" : "Raw Sapphire Block",
+  "block.villablocks.deepslate_sapphire_ore" : "Deepslate Sapphire Ore",
+  "block.villablocks.end_stone_sapphire_ore" : "End Stone Sapphire Ore",
+  "block.villablocks.nether_sapphire_ore" : "Nether Sapphire Ore",
+
+  "itemGroup.villablocks.villa" : "Villa Blocks"
+}

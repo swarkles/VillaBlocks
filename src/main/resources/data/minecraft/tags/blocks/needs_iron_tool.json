@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "villablocks:deepslate_sapphire_ore",
+    "villablocks:end_stone_sapphire_ore",
+    "villablocks:nether_sapphire_ore",
+    "villablocks:raw_sapphire_block",
+    "villablocks:sapphire_block",
+    "villablocks:sapphire_ore"
+  ]
+}

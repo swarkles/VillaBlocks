@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "villablocks:sapphire_ingot"
+    }
+  },
+  "result": {
+    "item": "villablocks:sapphire_block"
+  }
+}
