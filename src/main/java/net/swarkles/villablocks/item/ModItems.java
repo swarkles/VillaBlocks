@@ -6,6 +6,7 @@ import net.minecraft.util.Identifier;
 import net.swarkles.villablocks.VillaBlocks;
 import net.minecraft.item.Item;
 import net.minecraft.util.registry.Registry;
+import net.swarkles.villablocks.item.custom.EightBallItem;
 
 public class ModItems {
 
@@ -15,6 +16,9 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.VILLA)));
     public static final Item SAPPHIRE_INGOT = registerItem("sapphire_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.VILLA)));
+
+    public static final Item EIGHT_BALL = registerItem("eight_ball",
+            new EightBallItem(new FabricItemSettings().group(ModItemGroup.VILLA).maxCount(1)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(VillaBlocks.MOD_ID, name), item);

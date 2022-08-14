@@ -12,6 +12,7 @@ import net.minecraft.block.Block;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.swarkles.villablocks.block.custom.JumpyBlock;
 import net.swarkles.villablocks.item.ModItemGroup;
 
 public class ModBlocks  {
@@ -37,6 +38,13 @@ public class ModBlocks  {
     public static final Block RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block",
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(3.0f, 3.0f).requiresTool(),
                     UniformIntProvider.create(3, 7)), ModItemGroup.VILLA);
+
+    public static final Block JUMPY_BLOCK = registerBlock("jumpy_block",
+            new JumpyBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()), ModItemGroup.VILLA);
+
+
+
+
 
     private static Block registerBlock (String name, Block block, ItemGroup tab){
         registerBlockItem(name, block, tab);
