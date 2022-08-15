@@ -1,9 +1,12 @@
 {
+
   "item.villablocks.raw_sapphire": "Raw Sapphire",
   "item.villablocks.sapphire": "Sapphire",
   "item.villablocks.sapphire_ingot": "Sapphire Ingot",
 
   "item.villablocks.eight_ball": "Eight Ball",
+  "item.villablocks.eggplant": "Eggplant",
+  "item.villablocks.eggplant_seeds": "Eggplant Seeds",
 
   "block.villablocks.sapphire_block" : "Block of Sapphire",
   "block.villablocks.sapphire_ore" : "Sapphire Ore",
@@ -13,6 +16,8 @@
   "block.villablocks.nether_sapphire_ore" : "Nether Sapphire Ore",
 
   "block.villablocks.jumpy_block" : "Jumpy Block",
+  "block.villablocks.sapphire_lamp" : "Sapphire Lamp",
+  "block.villablocks.eggplant_crop" : "Eggplant Crop",
 
   "itemGroup.villablocks.villa" : "Villa Blocks"
 }

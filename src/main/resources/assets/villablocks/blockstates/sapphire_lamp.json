@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "villablocks:block/sapphire_lamp_on"},
+    "lit=false": { "model": "villablocks:block/sapphire_lamp_off"}
+  }
+}
