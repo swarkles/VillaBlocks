@@ -15,9 +15,24 @@
   "block.villablocks.end_stone_sapphire_ore" : "End Stone Sapphire Ore",
   "block.villablocks.nether_sapphire_ore" : "Nether Sapphire Ore",
 
+
+  "block.villablocks.cherry_log": "Cherry Log",
+  "block.villablocks.cherry_wood": "Cherry Wood",
+  "block.villablocks.stripped_cherry_log": "Stripped Cherry Log",
+  "block.villablocks.stripped_cherry_wood": "Stripped Cherry Wood",
+  "block.villablocks.cherry_planks" : "Cherry Planks",
+  "block.villablocks.cherry_planks_90" : "Cherry Planks Rotated 90 Degrees",
+  "block.villablocks.cherry_planks_trim" : "Cherry Planks with Trim",
+  "block.villablocks.cherry_planks_90_trim" : "Cherry Planks Rotated 90 Degrees with Trim",
+  "block.villablocks.cherry_planks_180_trim" : "Cherry Planks Rotated 180 Degrees with Trim",
+  "block.villablocks.cherry_planks_270_trim" : "Cherry Planks Rotated 270 Degrees with Trim",
+  "block.villablocks.cherry_x" : "Cherry X",
+
   "block.villablocks.jumpy_block" : "Jumpy Block",
   "block.villablocks.sapphire_lamp" : "Sapphire Lamp",
   "block.villablocks.eggplant_crop" : "Eggplant Crop",
+  "block.villablocks.green_chair" : "Green Chair",
+
 
   "itemGroup.villablocks.villa" : "Villa Blocks"
 }

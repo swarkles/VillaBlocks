@@ -2,18 +2,17 @@ package net.swarkles.villablocks.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.Material;
-import net.minecraft.block.OreBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.swarkles.villablocks.VillaBlocks;
-import net.minecraft.block.Block;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.swarkles.villablocks.block.custom.EggplantCropBlock;
+import net.swarkles.villablocks.block.custom.GreenChairBlock;
 import net.swarkles.villablocks.block.custom.JumpyBlock;
 import net.swarkles.villablocks.block.custom.SapphireLampBlock;
 import net.swarkles.villablocks.item.ModItemGroup;
@@ -24,6 +23,33 @@ public class ModBlocks  {
 
     public static final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",
            new Block(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool()), ModItemGroup.VILLA);
+
+    // LOGS
+    public static final Block CHERRY_LOG = registerBlock("cherry_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(2.0f).requiresTool()), ModItemGroup.VILLA);
+    public static final Block CHERRY_WOOD = registerBlock("cherry_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).strength(2.0f).requiresTool()), ModItemGroup.VILLA);
+    public static final Block STRIPPED_CHERRY_LOG = registerBlock("stripped_cherry_log",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).strength(2.0f).requiresTool()), ModItemGroup.VILLA);
+    public static final Block STRIPPED_CHERRY_WOOD = registerBlock("stripped_cherry_wood",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(2.0f).requiresTool()), ModItemGroup.VILLA);
+
+
+    // PLANKS
+    public static final Block CHERRY_PLANKS = registerBlock("cherry_planks",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f, 3.0f).requiresTool()), ModItemGroup.VILLA);
+    public static final Block CHERRY_PLANKS_90 = registerBlock("cherry_planks_90",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f, 3.0f).requiresTool()), ModItemGroup.VILLA);
+    public static final Block CHERRY_PLANKS_TRIM = registerBlock("cherry_planks_trim",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f, 3.0f).requiresTool()), ModItemGroup.VILLA);
+    public static final Block CHERRY_PLANKS_90_TRIM = registerBlock("cherry_planks_90_trim",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f, 3.0f).requiresTool()), ModItemGroup.VILLA);
+    public static final Block CHERRY_PLANKS_180_TRIM = registerBlock("cherry_planks_180_trim",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f, 3.0f).requiresTool()), ModItemGroup.VILLA);
+    public static final Block CHERRY_PLANKS_270_TRIM = registerBlock("cherry_planks_270_trim",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f, 3.0f).requiresTool()), ModItemGroup.VILLA);
+    public static final Block CHERRY_X = registerBlock("cherry_x",
+            new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2.0f, 3.0f).requiresTool()), ModItemGroup.VILLA);
 
     // ORE BLOCKS
 
@@ -59,6 +85,8 @@ public class ModBlocks  {
     public static final Block EGGPLANT_CROP = registerBlockWithoutItem("eggplant_crop",
             new EggplantCropBlock(FabricBlockSettings.copy(Blocks.WHEAT)));
 
+    public static final Block GREEN_CHAIR = registerBlock("green_chair",
+            new GreenChairBlock(FabricBlockSettings.of(Material.METAL).strength(3.0f, 6.0f).requiresTool().nonOpaque()), ModItemGroup.VILLA);
 
     // REST OF FUNCTIONS
         // BLOCKS WITHOUT ITEMS

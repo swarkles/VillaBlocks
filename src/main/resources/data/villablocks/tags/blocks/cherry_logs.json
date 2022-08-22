@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "villablocks:cherry_log",
+    "villablocks:cherry_wood",
+    "villablocks:stripped_cherry_log",
+    "villablocks:stripped_cherry_wood"
+  ]
+}

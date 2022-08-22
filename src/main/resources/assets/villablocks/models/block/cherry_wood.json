@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "villablocks:block/cherry_log",
+    "side": "villablocks:block/cherry_log"
+  }
+}
